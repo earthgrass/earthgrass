@@ -1,31 +1,26 @@
-
-<div align="center">
-
 # 你好，我是张家昊 👋
 
-### Computer Science Undergraduate @ Beijing University of Technology (BJUT)
+**Computer Science Undergraduate @ Beijing University of Technology (BJUT)**
 
-**Robust Optimization · GeoAI · Multi-Agent Systems · Security Engineering**
+关注 AI 优化算法、结构化稀疏、时空预测与多智能体系统。
 
-以数学推导探索智能优化算法，也致力于将 AI 系统真正构建、验证并部署出来。
+我希望将数学推导、可复现实验和软件工程结合起来：不仅提出研究假设，也明确验证条件、实验边界和当前尚未解决的问题。
 
 [![GitHub](https://img.shields.io/badge/GitHub-earthgrass-181717?logo=github)](https://github.com/earthgrass)
 [![Email](https://img.shields.io/badge/Email-champion041827%40163.com-blue?logo=maildotru)](mailto:champion041827@163.com)
-[![Research](https://img.shields.io/badge/Focus-AI%20Research%20%26%20Engineering-4C6EF5)](https://github.com/earthgrass?tab=repositories)
-
-</div>
 
 ---
 
 ## 👨‍💻 关于我 | About Me
 
-我就读于 **北京工业大学计算机科学与技术专业**。目前的学习与项目围绕三条主线展开：
+目前就读于北京工业大学计算机科学与技术专业。我的主要工作方向包括：
 
-- **AI 理论与优化**：Sharpness-Aware Minimization（SAM）、一般 N:M 结构化稀疏、Hessian / 曲率几何、动态多目标进化优化。
-- **时空智能与 AI for Science**：台风极端降水短临预测、ConvLSTM、气象与地形多源数据融合、可复现的受控消融实验。
-- **AI Agent 与系统工程**：多智能体金融研究、企业安全数据管线、证据关联分析、后端服务与复杂系统可靠性。
+- **AI 理论与优化**：Sharpness-Aware Minimization (SAM)、一般 N:M 结构化稀疏、Hessian 与曲率分析。
+- **时空智能**：台风极端降水短临预测、多源气象数据融合、受控消融与事件级评估。
+- **AI Agent**：多智能体金融研究、独立量化验证、证据追溯与工作流编排。
+- **软件工程**：安全数据管线、图算法、后端服务、自动化测试与系统可靠性。
 
-我的目标是把 **可解释的数学研究、可复现的实验，以及可交付的软件工程** 连接起来。
+我重视可验证的结论，不将理论设想、实验计划或单次实验结果直接表述为已被充分证明的研究成果。
 
 ---
 
@@ -33,211 +28,244 @@
 
 ### 金山云 · 网络安全开发实习生
 
-**Beijing Kingsoft Cloud Network Technology Co., Ltd. | 2026.07 – 2026.09**
+**2026.07 – 2026.09**
 
-参与企业安全数据处理与智能分析相关研发，工作覆盖异构数据接入、资产状态建模和安全事件分析平台。
+参与企业网络安全数据处理与智能分析相关研发，工作涉及异构数据接入、数据标准化和安全事件分析。
 
-- **多来源数据处理**：围绕 Syslog、API、Webhook 和文件输入设计接入与标准化流程，将原始数据留存、Parser 解析、来源专属 Mapping 和统一结构输出分层解耦。
-- **资产去重与状态建模**：针对大规模主机资产上报数据，区分完全重复记录、资产状态变化和当前快照，构建内容去重与版本化处理逻辑。
-- **安全事件证据关联**：参与安全事件事实层和多维关联分析系统，围绕事件、证据、实体、主机、行为及攻击模式建立可追溯的结构化展示与关联视图。
-- **可靠性与可验证性**：关注异常隔离、字段缺失的如实呈现、数据一致性与离线测试，支持分析结果的结构化导出。
+- **数据接入与标准化**：参与设计 Syslog、API、Webhook 和文件等输入的数据处理流程，梳理 Parser、来源专属 Mapping 与统一数据结构之间的职责边界。
+- **日志与告警处理**：围绕大规模安全数据开展字段清洗、时间窗口聚合、去重与结构化存储。
+- **安全事件分析**：参与事件、证据与相关实体的关联分析，关注结果的可追溯性和结构化展示。
+- **工程可靠性**：关注异常处理、数据一致性、字段缺失和离线验证。
 
-`Python` `FastAPI` `SQLite` `Data Pipelines` `Syslog` `REST API` `Security Analytics` `React`
+**技术关键词：** `Python` `SQLite` `FastAPI` `REST API` `Data Pipelines` `Security Analytics`
 
-> 企业实习项目涉及非公开业务数据与代码，这里仅展示可公开的技术工作概述。
+> 企业项目涉及非公开业务数据，此处仅描述可公开的技术工作范围。
 
 ---
 
 ## 🔬 科研项目 | Research
 
-### 01 · 一般 N:M 结构化稀疏中的 SAM 鲁棒几何保持
+### 01 · N:M + SAM：完整空间鲁棒目标下的结构化剪枝
 
-**Post-Training N:M Structured Sparsity through Global–Local SAM Robust Geometry**  
-**独立理论推导与算法研究 · 进行中**
+**Post-Training N:M Structured Sparsity under Full-Space SAM Robust Geometry**
 
-[![Repository](https://img.shields.io/badge/Repository-N--M--SAM-181717?logo=github)](https://github.com/earthgrass/N-M-SAM)
-[![Status](https://img.shields.io/badge/Status-Research%20in%20Progress-orange)](https://github.com/earthgrass/N-M-SAM)
+**研究状态：** 理论与算法研究进行中，核心评分方法尚待实验验证。
 
-研究的问题是：**在完成稠密模型训练后，如何选择合法的 N:M 稀疏结构，并尽可能保留完整参数空间 SAM 目标下的低鲁棒损失状态？**
+- [当前研究实现分支：research/rebuild-v1](https://github.com/earthgrass/N-M-SAM/tree/research/rebuild-v1)
+- [历史实验归档分支](https://github.com/earthgrass/N-M-SAM/tree/%E5%88%9D%E7%89%88%E5%BE%85%E5%AE%8C%E5%96%84%E7%89%88%E6%9C%AC)
 
-与仅依据参数幅值选取 Mask 的方法不同，我正在研究**全局扰动、组内局部响应与跨组曲率耦合**如何共同影响结构选择。理论不预先固定为 2:4；2:4 是可执行的实验实例。
+#### 研究问题
 
-**理论路线**
+在稠密模型训练完成后，如何选择合法的一般 N:M 稀疏结构，使其尽可能保持完整参数空间 SAM 鲁棒目标下的低损失状态？
 
-1. **完整空间 SAM 参考目标**：从 $F_\rho(W)=\max_{\|\epsilon\|_2\leq\rho}L(W+\epsilon)$ 出发，定义低鲁棒损失的连续 Ideal，而不是直接用权重欧氏距离或剪枝后的 Hessian 相似度作为终极目标。
-2. **Global = Local + Cross**：将一次联合参数扰动引起的全网络损失变化，精确分解为组内损失增量与跨组交互项；所有组共享同一个全局扰动预算。
-3. **梯度响应与曲率联系**：由 $g_2-g_1=\int_0^1 H(W+t\epsilon)\epsilon\,dt$ 分析沿扰动方向的 Hessian 响应；进一步通过**匹配的** Global / Local 探针，识别跨组交互对各组扰动的梯度。
-4. **鲁棒几何匹配与保序结构选择**：研究从有限梯度与曲率观测构造候选 Mask 代价代理，在可控误差条件下尽可能保持候选结构对完整 SAM 鲁棒目标的排序。
-5. **两阶段实施**：**Part 1** 在不补偿保留权重的前提下，渐进式选择一般 N:M Mask；**Part 2** 固定最终 Mask，只更新保留权重，进行完整空间 SAM 目标下的有限步鲁棒恢复。
+研究范围为一般 \(0<N<M\)，2:4 是初期实验实例，而不是理论适用范围的限制。
 
-<details>
-<summary><b>核心数学关系（点击展开）</b></summary>
+从完整空间 SAM 目标出发：
 
-给定稠密 checkpoint $W_0$、合法结构集合 $\mathcal M_{N:M}$ 和相应投影 $P_m$：
+\[
+F_\rho(W)=
+\max_{\|\epsilon\|_2\leq\rho}L(W+\epsilon)
+\]
 
-$$
-F_\rho(W)=\max_{\|\epsilon\|_2\le\rho}L(W+\epsilon),\qquad
-m^*\in\arg\min_{m\in\mathcal M_{N:M}}F_\rho(P_mW_0).
-$$
+给定稠密权重 \(W_0\)、合法 Mask \(m\) 和相应投影 \(P_m\)，研究目标为：
 
-定义每组的局部损失增量 $\phi_b(W,\epsilon_b)=L(W+E_b\epsilon_b)-L(W)$，则跨组交互为：
+\[
+m^*\in\arg\min_{m\in\mathcal M_{N:M}}
+F_\rho(P_mW_0)
+\]
 
-$$
-I_{\mathrm{cross}}(W,\epsilon)
-=L(W+\epsilon)-L(W)-\sum_b\phi_b(W,\epsilon_b).
-$$
+#### 理论路线
 
-当 Global 与 Local 在**同一参考中心、同一组内扰动分量**下进行匹配探测时，有严格恒等式：
+1. **Global–Local–Cross 分解**
 
-$$
-C_b(W,\epsilon)
-=\nabla_b L(W+\epsilon)-\nabla_b L(W+E_b\epsilon_b)
-=\nabla_{\epsilon_b}I_{\mathrm{cross}}(W,\epsilon).
-$$
+   将联合参数扰动引起的损失变化分解为组内局部增量和跨组交互项。
 
-该恒等式识别的是指定扰动方向上的交互梯度，**并不意味着单次探测已恢复完整 Hessian，也不直接给出最优 Mask 分数**。
+2. **匹配梯度探针**
 
-结构选择后的恢复仍以同一个完整参数空间 $F_\rho$ 为目标，SAM 的虚拟扰动不因永久稀疏 Mask 而自动限制到保留支撑。
+   研究同一参考中心、匹配扰动下的 Global / Local 梯度差异，识别指定扰动方向上的跨组交互梯度。
 
-</details>
+3. **梯度与曲率联系**
 
-**当前进展与边界**：
+   对可微损失，在固定状态下分析路径积分关系：
 
-已经整理 Global–Local 交互的数学恒等关系、路径积分表达、局部二阶近似与条件性保序分析；已有 CIFAR-10 / ResNet18 / 2:4 稀疏的 200-epoch GPU 基线实验。
+   \[
+   g_2-g_1=
+   \int_0^1 H(W+t\epsilon)\epsilon\,dt
+   \]
 
-**如何以有限、低成本的探测构造足够准确的结构评分，仍是研究中的核心问题，尚未宣称获得理论最优剪枝算法。**
+4. **鲁棒代价代理**
 
-**关键词**：`SAM` `N:M Sparsity` `Hessian` `Cross-Group Interaction` `Robust Optimization` `Post-Training Pruning`
+   研究如何利用有限梯度与曲率观测估计候选 Mask 的鲁棒代价，并分析候选排序误差。
 
-[查看研究代码与实验归档 →](https://github.com/earthgrass/N-M-SAM)
+5. **两阶段实验**
 
----
+   第一阶段进行不补偿的渐进式训练后剪枝；第二阶段固定最终 Mask，研究完整参数空间 SAM 目标下的鲁棒恢复。
 
-### 02 · GeoAI：台风极端降水短临预测与受控消融
+这些数学关系为研究提供分析工具，但不意味着已恢复完整 Hessian、得到理论最优 Mask，或证明新方法优于现有基线。
 
-**Tropical-Cyclone Precipitation Nowcasting · Spatiotemporal Modeling**  
-**北京高校数学建模校际联赛一等奖相关项目 · 持续研究**
+#### 当前实现与实验状态
 
-[![Repository](https://img.shields.io/badge/Repository-Geo__AI-181717?logo=github)](https://github.com/earthgrass/Geo_AI)
+- 已有本地 Dense-SAM checkpoint：200 epochs，`global_step=78,200`。模型权重未随公开仓库归档。
+- 新研究分支已实现 SAM 基础训练组件、N:M 布局、合法 Mask 检查、候选枚举和结构位移 \(q\) 等基础模块。
+- 该分支的验证记录为 **57 项测试通过**，包含 CPU toy 实验；尚未完成 CUDA 验证、CIFAR 正式训练和完整的鲁棒评分算法。
+- 旧分支归档了六组单随机种子的 200-epoch CIFAR-10 / ResNet18 实验。这些属于历史训练时稀疏实验，不能作为当前 V0.3 训练后剪枝方法有效性的证据。
 
-面向台风极端降水的 **30 分钟短临预测**，研究气旋状态、地形信息和训练目标设计对时空模型表现的实际贡献。
+#### 下一阶段实验计划
 
-- **多源气象数据处理**：整合 GPM IMERG 降水、CMA 台风路径与强度、ETOPO1 地形数据，构建时间与空间对齐的数据管线。
-- **时空预测模型**：以 ConvLSTM / Residual ConvLSTM 为模型基础，研究降水场演化与多源输入建模。
-- **双轴受控消融**：分别检验气旋状态、静态地形、地形梯度等输入信息，以及平滑约束、极端降水加权损失的边际作用。
-- **实验可信度**：强调事件级划分、训练集统计量归一化、测试集隔离、验证集选择以及事件级统计分析，避免数据泄漏与过度结论。
+1. 从同一稠密 checkpoint 出发，比较一次性剪枝与按 `layer1–layer4` 分批执行的渐进式剪枝。
+2. 对照 `Magnitude`、`Taylor-g1`、`Taylor-g2` 和梯度差相关评分。
+3. 第一轮固定为不补偿的结构选择实验。
+4. 第二轮固定最终 Mask，比较不补偿、最终阶段恢复和逐批恢复。
+5. 统一评价准确率、鲁棒损失、Mask 合法性和计算成本。
 
-**研究定位**：当前重点是提供可复现的实证分析，**不把平滑损失直接表述为物理方程约束，也不提前宣称新网络架构或 SOTA 结果**。
-
-**关键词**：`GeoAI` `ConvLSTM` `Spatiotemporal Forecasting` `GPM IMERG` `CMA` `Ablation Study`
-
-[查看代码、实验协议与研究进展 →](https://github.com/earthgrass/Geo_AI)
+以上为待执行与验证的实验方案，不代表新方法已获得性能提升。
 
 ---
 
-### 03 · 动态多目标进化优化：残差 LSTM 与自适应搜索
+### 02 · GeoAI：台风极端降水短临预测
 
-**Dynamic Multi-Objective Evolutionary Optimization**  
-**核心算法设计与实验研究**
+**Tropical-Cyclone Precipitation Nowcasting via Controlled Ablation**
 
-- 针对非平稳环境中的预测失效与搜索方向偏移，设计基于**线性外推残差的 LSTM 预测机制**。
-- 探索**曲率驱动的三态自适应路由**，在不同环境状态下调整搜索与种群初始化策略。
-- 引入连续预测误差监测与熔断逻辑，降低错误外推对后续进化过程的干扰。
-- 基于 CEC 动态多目标基准与 PlatEMO，围绕 MIGD、MHV 等指标开展对比和消融实验。
+**研究状态：** 受控消融实验已冻结，后续以结果核验和论文分析为主。
 
-`LSTM` `DMOEA` `Evolutionary Computation` `PlatEMO` `Pareto Optimization`
+[GeoAI Repository](https://github.com/earthgrass/Geo_AI)
 
-[查看项目仓库 →](https://github.com/earthgrass/LSTM_DMOEA_earthgrass)
+研究面向台风降水的 30 分钟短临预测，采用固定的 Residual ConvLSTM 主干，研究输入信息与训练目标对预测结果的边际影响。
+
+- **多源数据**：GPM IMERG 降水、CMA 台风路径与强度、ETOPO1 地形。
+- **输入信息消融**：比较降水基线、气旋状态、静态地形及地形梯度等输入。
+- **损失函数消融**：比较基础 MSE、平滑正则和极端降水加权等设置。
+- **评估规范**：采用事件级划分、测试集隔离与事件级统计分析。
+
+当前项目记录包括冻结的 TEST A/B 实验、各 3 个随机种子、主实验与敏感性设置，以及 2,000 次 bootstrap 分析。主实验与敏感性设置分别涉及 707 和 696 个测试窗口。
+
+仓库 README 记录的验证测试为 69/69 通过。
+
+**研究边界：** 项目的重点是可复现的受控实证分析，而不是提出全新的预测架构。平滑正则或极端降水加权不能直接等同于物理方程约束，也不据此宣称 SOTA。
+
+---
+
+### 03 · 动态多目标进化优化 | DMOEA
+
+**Dynamic Multi-Objective Evolutionary Optimization**
+
+**研究状态：** 算法原型与实验验证阶段。
+
+[Repository: LSTM_DMOEA_earthgrass](https://github.com/earthgrass/LSTM_DMOEA_earthgrass)
+
+项目围绕动态多目标优化中的历史状态利用、时序预测和搜索策略调整开展探索。
+
+目前公开代码仍以早期时序建模、历史检索及相关原型为主。新版预测与自适应路由方案仍需进一步实现和验证。
+
+在可复现的正式基准实验和结果归档完成之前，不宣称残差 LSTM、曲率驱动三态路由或 CEC / PlatEMO 指标已经取得优于现有方法的结果。
 
 ---
 
 ## 🤖 AI Agent 与软件系统 | Engineering
 
-### 04 · 金融 AI：证据驱动的多智能体投研委员会
+### 04 · FinAgent-X：多智能体金融研究系统
 
-**Multi-Agent Financial Research System · 北大金融 AI 训练营延伸项目**
+**Multi-Agent Financial Research and Verification System**
 
-[![Repository](https://img.shields.io/badge/Repository-AI--finance--agent-181717?logo=github)](https://github.com/earthgrass/AI-finance-agent)
+[Repository: AI-finance-agent](https://github.com/earthgrass/AI-finance-agent)
 
-面向金融研究任务，设计由多个专职智能体协作的分析系统，重点解决**研究结论能否被验证、质疑与追溯**的问题。
+面向金融研究任务，构建研究、量化验证、观点质疑、证据仲裁和报告生成的协作工作流。
 
-- **监督与编排**：Supervisor 分解研究问题，组织 Research、Quant、Committee 和 Report 等模块的依赖与执行。
-- **独立量化验证**：对研究假设引入 Python 与真实金融数据计算，而不是仅依赖 LLM 自述。
-- **双视角辩论与证据仲裁**：积极与谨慎观点共享事实底座，在风险、估值和不确定性层面进行对照，由仲裁模块形成综合研判。
-- **可追溯报告**：输出结构化研报，关联假设、定量分析、证据来源与时间信息；支持 A 股公司研究、公司比较和已配置主题研究。
-- **系统工程**：构建 Web 前端、API、流程编排、运行状态管理与持久化层，并使用离线回归测试强化异常路径。
+#### 核心模块
 
-`Python` `LLM Agents` `Multi-Agent Orchestration` `Quantitative Analysis` `FastAPI` `React` `Evidence Traceability`
+- `QueryInterpreter` / `Planner`：解析研究需求并规划执行路径。
+- `Research` / `Quant`：整理研究证据，并使用 Python 和金融数据独立验证定量结论。
+- `Critic` / `Committee`：检查结论、组织不同观点并进行证据仲裁。
+- `Report` / `MemoryWriter`：生成结构化报告并管理研究上下文。
 
-[查看多智能体架构与源代码 →](https://github.com/earthgrass/AI-finance-agent)
+#### 工程进展
 
----
+当前本地开发版本为 V2.0.1，已实现动态路由、迭代 Critic、Replanner、Stop、Committee、Memory 和 `as_of` 时间约束等功能。
 
-### 05 · 北京工业大学棒球队管理系统
+**验证状态：** 当前开发快照的端到端测试为 12/12 通过；运行时回归测试为 12 项通过。回归测试使用模拟叶子 Agent，但保留真实工作流拓扑和 Supervisor 路由检查。
 
-**Full-Stack Development · Containerized Deployment**
+公开仓库主要展示系统架构和使用方法；本地开发版本的验证记录不应被误认为全部已同步至公开分支。
 
-[![Repository](https://img.shields.io/badge/Repository-bjut--baseball--system-181717?logo=github)](https://github.com/earthgrass/bjut-baseball-system)
-[![Demo](https://img.shields.io/badge/Online%20Demo-Visit-2F9E44)](https://bjut-baseball-system.onrender.com)
+**技术关键词：** `Python` `LLM Agents` `FastAPI` `React` `Quantitative Analysis` `Evidence Traceability`
 
-独立开发面向高校棒球队的数据管理系统，将自己的运动需求转化为实际软件项目。
-
-- 实现球员档案、比赛记录、打击与投球统计、对局查询和数据可视化。
-- 构建 Flask / SQLAlchemy / SQLite 后端及 RESTful API，支持比赛 PDF 解析、数据导入与 CSV 导出。
-- 完成 Docker 容器化与公网部署，并持续优化移动端交互、数据一致性和工程文档。
-
-`Flask` `SQLAlchemy` `SQLite` `Docker` `REST API` `Data Visualization`
-
-🌐 [在线体验](https://bjut-baseball-system.onrender.com) · [源代码](https://github.com/earthgrass/bjut-baseball-system)
+系统用于研究辅助，不提供收益保证，也不将模型生成结论视为未经核验的投资事实。
 
 ---
 
-### 06 · 多模态数字人系统：流式通信与异常链路优化
+### 05 · LogiRoute：单车物流路径规划系统
 
-**LLM + TTS + Real-Time Interaction · 研发实践**
+**Handwritten Graph Algorithms and Logistics Simulation**
 
-参与流式数字人交互系统的稳定性优化，排查外部语音 API 异常、线程退出、前端状态机阻塞和 WebSocket 连接故障；通过异常捕获、兜底策略和状态清理改进故障场景下的系统表现。
+[Repository: Data-structure-project](https://github.com/earthgrass/Data-structure-project) · [Phase 2 PR #1](https://github.com/earthgrass/Data-structure-project/pull/1)
 
-`WebSocket` `Concurrency` `State Machine` `Error Handling` `Real-Time Systems`
+数据结构课程设计项目，按照课程要求采用**单车配送**约束，围绕有向带权图实现物流路径规划。
+
+- 使用邻接表作为主要图存储结构，支持邻接矩阵导出。
+- 手写 MinHeap 和 Dijkstra，避免调用第三方图算法库。
+- 将场景和业务参数放在配置文件中，便于固定场景测试与后续扩展。
+- 通过独立测试验证数据结构、路径计算与边界条件。
+
+Phase 2 的实现和测试位于待合并的 PR 分支，当前 PR #1 仍为 Open。该分支此前的验证记录为 224/224 测试通过；不应将其表述为已经合并到主分支的功能。
+
+---
+
+### 06 · 棒球队管理系统
+
+**Full-Stack Baseball Team Management System**
+
+[Repository: bjut-baseball-system](https://github.com/earthgrass/bjut-baseball-system) · [Demo](https://bjut-baseball-system.onrender.com)
+
+独立开发的棒球队数据管理系统，将实际训练与比赛管理需求转化为软件功能。
+
+- 球员档案、比赛记录、对局查询与统计分析。
+- 打击、投球等数据的汇总与可视化。
+- 比赛 PDF 解析、数据导入与 CSV 导出。
+- 基于 Flask、SQLAlchemy 与 SQLite 的后端实现，支持 Docker 部署。
+
+**技术关键词：** `Flask` `SQLAlchemy` `SQLite` `REST API` `Data Visualization`
 
 ---
 
 ## 🛠 技术栈 | Tech Stack
 
 | 方向 | 技术与方法 |
-| --- | --- |
-| **语言** | Python · MATLAB · C · Java · JavaScript / TypeScript · SQL |
-| **深度学习与数学优化** | PyTorch · LSTM · ConvLSTM · SAM · Hessian / Curvature Analysis · N:M Sparsity · Evolutionary Optimization |
-| **科研与数据分析** | NumPy · Pandas · scikit-learn · SHAP · PlatEMO · Experimental Design · Statistical Evaluation |
-| **AI Agent** | LLM API · Multi-Agent Workflows · Tool Calling · MCP · Evidence-Based Reasoning |
-| **后端与前端** | Flask · FastAPI · SQLite · RESTful API · WebSocket · React |
-| **工程实践** | Git / GitHub · Linux · Docker · Pytest · CI/CD · Automated Testing · Claude Code · Codex |
+|---|---|
+| 编程语言 | Python · C · Java · MATLAB · JavaScript / TypeScript · SQL |
+| 深度学习 | PyTorch · CNN / ResNet · LSTM / ConvLSTM · SAM |
+| 数学与优化 | N:M Sparsity · Hessian / Curvature Analysis · Robust Optimization · Evolutionary Optimization |
+| 数据处理 | NumPy · Pandas · SQLite · Structured Data Pipelines |
+| AI Agent | LLM APIs · Tool Calling · Multi-Agent Workflows · Evidence-Based Verification |
+| 后端与前端 | FastAPI · Flask · React · REST API · WebSocket |
+| 工程实践 | Git / GitHub · Linux · Docker · Pytest · Unittest · Automated Regression Testing |
 
 ---
 
 ## 🔭 近期研究与工程重点
 
 - **N:M + SAM**：探索有限 Global–Local 梯度探测到结构代价代理的映射，并验证候选保序与固定结构鲁棒恢复。
-- **GeoAI**：推进双轴受控消融、事件级统计分析和完整实验复现。
-- **动态优化**：完善 DMOEA 算法的稳定性测试、对比基线与消融分析。
-- **金融 Agent**：强化独立量化验证、多智能体协作、异常处理与证据可追溯性。
+- **GeoAI**：推进冻结实验的结果核验、事件级统计分析与论文整理。
+- **DMOEA**：完善算法原型、正式基准对比与消融分析。
+- **FinAgent-X**：强化独立量化验证、多智能体协作、异常处理与证据可追溯性。
+- **系统工程**：持续改进数据管线、图算法、自动化测试与项目文档。
 
 ---
 
-## 🏆 经历与荣誉
+## 🏆 经历与荣誉 | Highlights
 
-- 🥇 **2026 年北京高校数学建模校际联赛一等奖**
-- ⚾ **带领校队获得首都高校棒球锦标赛冠军**
-- 📄 独立完成 MCM 全英文数学建模论文
-- 👥 担任行政班长，参与团队组织与项目统筹
+- 🥇 北京高校数学建模校际联赛一等奖。
+- ⚾ 中国国家二级棒球运动员。
+- 🏆 带领校队获得首都高校棒球锦标赛冠军。
+- 📄 独立完成 MCM 全英文数学建模论文。
+- 👥 担任行政班长，参与团队组织与项目统筹。
 
 ---
 
-## 📊 GitHub 数据
+## 📊 GitHub Stats
 
 <div align="center">
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=earthgrass&show_icons=true&hide_border=true&include_all_commits=true&theme=transparent&locale=cn" alt="GitHub Stats" />
+
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=earthgrass&layout=compact&hide_border=true&theme=transparent&locale=cn" alt="Top Languages" />
 
 </div>
@@ -246,6 +274,9 @@ $$
 
 ## 📫 联系我 | Contact
 
-**GitHub**：[github.com/earthgrass](https://github.com/earthgrass) · **Email**：[champion041827@163.com](mailto:champion041827@163.com)
+- **GitHub：** [github.com/earthgrass](https://github.com/earthgrass)
+- **Email：** [champion041827@163.com](mailto:champion041827@163.com)
 
 > From mathematical ideas to reproducible experiments, and from prototypes to working systems.
+
+*Project status snapshot: 2026-10-17. Completed implementation, historical experiments, and planned research are described separately.*
